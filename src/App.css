@@ -1,0 +1,43 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  background-color: #f8f8f8;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style for table header cells */
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table data cells */
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
